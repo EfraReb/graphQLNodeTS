@@ -1,0 +1,52 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "strictNullChecks": true, 
+        "noImplicitAny": false, 
+        "noImplicitReturns": true, 
+        "noImplicitThis": false, 
+        "noUnusedParameters": false, 
+        "noUnusedLocals": false, 
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "target": "es6",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "strict": true,
+        "typeRoots": [ "../node_modules/@types" ],
+        "lib": [
+          "es5",
+          "es6",
+          "dom",
+          "es2016.array.include",
+          "es2015.core",
+          "es2015.collection",
+          "es2015.generator",
+          "es2015.iterable",
+          "es2015.promise",
+          "es2015.proxy",
+          "es2015.reflect",
+          "es2015.symbol",
+          "es2015.symbol.wellknown",
+          "esnext.asynciterable"
+        ]
+      },
+    "exclude": [
+        "node_modules",
+        "node_modules/@types",
+        "typings/",
+        "typings/main",
+        "typings/main.d.ts",
+        "coverage",
+        "dist",
+        ".git",
+        "!../node_modules", 
+        "../../node_modules",
+        "**/*.spec.ts"
+    ]
+  }
