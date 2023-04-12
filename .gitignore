@@ -1,0 +1,5 @@
+# compiled output
+/node_modules/
+
+# ENV - node
+/package-lock.json
